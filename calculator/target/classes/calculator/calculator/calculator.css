@@ -1,0 +1,28 @@
+.root{
+    -fx-background-color:"D9DDDC";
+}
+
+.keypad{
+    -fx-background-color: "#F0EDEA";
+    -fx-background-radius: 150;
+}
+
+.operator{
+    -fx-background-color: "#B19D99";
+    -fx-background-radius: 150;
+}
+
+.extra{
+    -fx-background-color: "#C1D2D8";
+    -fx-background-radius: 150;
+}
+
+.C{
+    -fx-background-color: "#CE7777";
+    -fx-background-radius: 150;
+}
+
+.choice{
+    -fx-background-color: "#EBECF0";
+    -fx-background-radius: 150;
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="254.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.calculator.TrigonometricController">
+    <children>
+        <Button layoutX="14.0" layoutY="108.0" mnemonicParsing="false" onAction="#num1" prefHeight="52.0" prefWidth="54.0" styleClass="keypad" text="1" />
+        <TextField fx:id="calcuScreen" layoutX="12.0" layoutY="21.0" prefHeight="72.0" prefWidth="230.0">
+         <font>
+            <Font name="Helvetica Neue" size="18.0" />
+         </font></TextField>
+        <Button layoutX="68.0" layoutY="108.0" mnemonicParsing="false" onAction="#num2" prefHeight="52.0" prefWidth="54.0" styleClass="keypad" text="2" />
+        <Button layoutX="122.0" layoutY="108.0" mnemonicParsing="false" onAction="#num3" prefHeight="52.0" prefWidth="54.0" styleClass="keypad" text="3" />
+        <Button layoutX="14.0" layoutY="160.0" mnemonicParsing="false" onAction="#num4" prefHeight="52.0" prefWidth="54.0" styleClass="keypad" text="4" />
+        <Button layoutX="68.0" layoutY="160.0" mnemonicParsing="false" onAction="#num5" prefHeight="52.0" prefWidth="54.0" styleClass="keypad" text="5" />
+        <Button layoutX="122.0" layoutY="160.0" mnemonicParsing="false" onAction="#num6" prefHeight="52.0" prefWidth="54.0" styleClass="keypad" text="6" />
+        <Button layoutX="14.0" layoutY="212.0" mnemonicParsing="false" onAction="#num7" prefHeight="52.0" prefWidth="54.0" styleClass="keypad" text="7" />
+        <Button layoutX="68.0" layoutY="212.0" mnemonicParsing="false" onAction="#num8" prefHeight="52.0" prefWidth="54.0" styleClass="keypad" text="8" />
+        <Button layoutX="122.0" layoutY="212.0" mnemonicParsing="false" onAction="#num9" prefHeight="52.0" prefWidth="54.0" styleClass="keypad" text="9" />
+        <Button layoutX="68.0" layoutY="264.0" mnemonicParsing="false" onAction="#num0" prefHeight="52.0" prefWidth="54.0" styleClass="keypad" text="0" />
+        <Button layoutX="14.0" layoutY="264.0" mnemonicParsing="false" onAction="#dot" prefHeight="52.0" prefWidth="54.0" styleClass="extra" text="." />
+        <Button layoutX="122.0" layoutY="264.0" mnemonicParsing="false" onAction="#trigonometricEquals" prefHeight="52.0" prefWidth="54.0" styleClass="extra" text="=" />
+      <Button layoutX="186.0" layoutY="147.0" mnemonicParsing="false" onAction="#sin" prefHeight="26.0" prefWidth="54.0" styleClass="operator" text="sin">
+         <font>
+            <Font name="Helvetica Neue" size="11.0" />
+         </font></Button>
+      <Button layoutX="186.0" layoutY="199.0" mnemonicParsing="false" onAction="#tan" prefHeight="26.0" prefWidth="54.0" styleClass="operator" text="tan">
+         <font>
+            <Font name="Helvetica Neue" size="11.0" />
+         </font></Button>
+      <Button layoutX="186.0" layoutY="251.0" mnemonicParsing="false" onAction="#csc" prefHeight="26.0" prefWidth="54.0" styleClass="operator" text="csc">
+         <font>
+            <Font name="Helvetica Neue" size="11.0" />
+         </font></Button>
+      <Button layoutX="186.0" layoutY="277.0" mnemonicParsing="false" onAction="#cot" prefHeight="26.0" prefWidth="54.0" styleClass="operator" text="cot">
+         <font>
+            <Font name="Helvetica Neue" size="11.0" />
+         </font></Button>
+      <Button layoutX="186.0" layoutY="173.0" mnemonicParsing="false" onAction="#cos" prefHeight="26.0" prefWidth="54.0" styleClass="operator" text="cos">
+         <font>
+            <Font name="Helvetica Neue" size="11.0" />
+         </font></Button>
+      <Button layoutX="186.0" layoutY="225.0" mnemonicParsing="false" onAction="#sec" prefHeight="26.0" prefWidth="54.0" styleClass="operator" text="sec">
+         <font>
+            <Font name="Helvetica Neue" size="11.0" />
+         </font></Button>
+      <Button layoutX="186.0" layoutY="121.0" mnemonicParsing="false" onAction="#clear" prefHeight="26.0" prefWidth="54.0" styleClass="C" text="C">
+         <font>
+            <Font name="Helvetica Neue" size="11.0" />
+         </font></Button>
+      <Button layoutX="14.0" layoutY="348.0" mnemonicParsing="false" onAction="#switchToHistory" prefHeight="26.0" prefWidth="61.0" styleClass="choice" text="History">
+         <font>
+            <Font name="Helvetica Neue" size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="97.0" layoutY="348.0" mnemonicParsing="false" onAction="#switchToArithmetic" prefHeight="26.0" prefWidth="61.0" styleClass="choice" text="Default">
+         <font>
+            <Font name="Helvetica Neue" size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="183.0" layoutY="348.0" mnemonicParsing="false" onAction="#switchToSurvey" prefHeight="26.0" prefWidth="61.0" styleClass="choice" text="Survey">
+         <font>
+            <Font name="Helvetica Neue" size="11.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

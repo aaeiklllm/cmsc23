@@ -1,0 +1,7 @@
+<root>
+    <item name='javafx.scene.control.TextInputControl void setText(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val val="&quot;_ -&gt; _&quot;"/>
+        </annotation>
+    </item>
+</root>
